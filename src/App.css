@@ -1,0 +1,118 @@
+body {
+  background-image: linear-gradient(
+    rgb(12, 228, 228),
+    rgb(216, 122, 138),
+    rgb(185, 174, 128)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.table2 {
+  width: 100vw;
+  height: 250px;
+  text-align: center;
+}
+.heading {
+  background-color: brown;
+  font-size: 30px;
+  color: black;
+}
+.btn {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: olive;
+  color: black;
+  font-size: 20px;
+  
+  margin-top: 30px;
+}
+.new2 {
+  background-color: peru;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.new {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: palegoldenrod;
+  border-radius: 5px;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(lightcyan, pink, Cornsilk);
+}
+.child1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inp {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+  /* font-weight: bold; */
+  padding: 5px;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(17, 17, 209, 0.39);
+  border: 2px solid black;
+  border-radius: 15px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: yellow;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
